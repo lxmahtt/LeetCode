@@ -1,6 +1,11 @@
 import java.util.HashSet;
 import java.util.Set;
-
+/**
+ * @program: LeetCode
+ * @description: 数组中最长的裴波那切数列
+ * @author: Lxm
+ * @create: 2018-07-31 11:15
+ **/
 public class FibonacciSequence {
     //    获取数组中最长裴波那切数列的长度
     public int length(int[] A) {
