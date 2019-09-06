@@ -8,9 +8,9 @@ import java.util.Set;
  * @author: Lxm
  * @create: 2018-07-31 11:15
  **/
-public class FibonacciSequence {
+class FibonacciSequence {
     //    获取数组中最长裴波那切数列的长度
-    public int length(int[] A) {
+    int length(int[] A) {
     //    方法记忆错误。。。默认想成数据库，获取表的长度，正好是length()。造成StackOverflowError
         int N = A.length;
         int ans = 0;

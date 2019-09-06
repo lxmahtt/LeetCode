@@ -9,13 +9,13 @@ import java.util.Set;
  * @author: Lxm
  * @create: 2018-07-31 11:39
  **/
-public class RobotDistance {
+class RobotDistance {
     //    public int distance(int[] A,int[][] B){
 //        int dis = 0;
 //
 //        return dis;
 //    }
-    public int robotSim(int[] commands, int[][] obstacles) {
+    int robotSim(int[] commands, int[][] obstacles) {
         int[] dx = new int[]{0, 1, 0, -1};
         int[] dy = new int[]{1, 0, -1, 0};
         int x = 0, y = 0, di = 0;
